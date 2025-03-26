@@ -22,6 +22,7 @@ This README serves as a structured **log of progress, learnings, and hands-on wo
 
 ### 💻 **Commands Used:**  
 ```sh
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane
 docker
 pwd
 ls -ltr
