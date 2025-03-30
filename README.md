@@ -190,40 +190,15 @@ This concludes **Day 2** of the workshop on **Good vs Bad Floorplanning** and **
      ```
 
 2️⃣ **Load the Custom Inverter Layout in Magic and Explore**  
-   - Open Magic with the layout:
-     ```bash
-     magic -T sky130A.tech vsdinv.mag
-     ```
-   - Use `zoom`, `select`, and `info` commands to explore the design.
-
+  
 3️⃣ **Spice Extraction of Inverter in Magic**  
-   - Extract SPICE netlist:
-     ```bash
-     extract all
-     ext2spice cthresh 0 rthresh 0
-     ext2spice
-     ```
-   - This generates a `.sp` file for simulation.
-
+  
 4️⃣ **Edit the SPICE Model File for Analysis**  
-   - Open the generated `.sp` file and modify device parameters if needed.
-   - Include appropriate transistor models for accurate simulation.
-
+  .
 5️⃣ **Run Post-Layout ngspice Simulations**  
-   - Run the simulation using ngspice:
-     ```bash
-     ngspice inverter.sp
-     ```
-   - Observe the transient and DC characteristics.
-
+   
 6️⃣ **Fix DRC Issues in the Old Magic Tech File**  
-   - Open the DRC section in the `sky130A.tech` file.
-   - Identify and modify incorrect rules.
-   - Verify changes by re-running DRC in Magic:
-     ```bash
-     drc check
-     ```
-
+   
 ---
 
 #### 1. Clone custom inverter standard cell design from github repository
