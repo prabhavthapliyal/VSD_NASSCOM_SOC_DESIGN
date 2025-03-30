@@ -181,14 +181,13 @@ This concludes **Day 2** of the workshop on **Good vs Bad Floorplanning** and **
 
 ## ✅ Section 3 Tasks
 
-### 1️⃣ Clone the Custom Inverter Standard Cell Design  
-### 2️⃣ Load the Custom Inverter Layout in Magic  
-### 3️⃣ Spice Extraction of Inverter in Magic  
-### 4️⃣ Edit the SPICE Model File for Analysis  
-### 5️⃣ Run Post-Layout ngspice Simulations  
-### 6️⃣ Fix DRC Issues in the Old Magic Tech File  
-  
-   
+✅ **Clone the Custom Inverter Standard Cell Design**  
+✅ **Load the Custom Inverter Layout in Magic**  
+✅ **Spice Extraction of Inverter in Magic**  
+✅ **Edit the SPICE Model File for Analysis**  
+✅ **Run Post-Layout ngspice Simulations**  
+✅ **Fix DRC Issues in the Old Magic Tech File**  
+     
 ---
 
 #### 1. Clone custom inverter standard cell design from github repository
