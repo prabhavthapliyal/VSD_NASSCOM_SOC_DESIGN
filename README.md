@@ -287,86 +287,106 @@ Screenshots of ngspice run
 Screenshot of generated plot
 ![17_transientVirtualBox_vsdworkshop_29_03_2025_19_51_17.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/17_transientVirtualBox_vsdworkshop_29_03_2025_19_51_17.png)
 
-Rise transition time calculation
+## ⚡ Rise Transition Time Calculation
 
 ```math
 Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ taken\ for\ output\ to\ rise\ to\ 20\%
 ```
+
 ```math
 20\%\ of\ output = 660\ mV
 ```
+
 ```math
 80\%\ of\ output = 2.64\ V
+```
 
-20% screenshots
+### 📈 20% Screenshots
 ![19_20%graphriseVirtualBox_vsdworkshop_29_03_2025_19_39_40.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/19_20%25graphriseVirtualBox_vsdworkshop_29_03_2025_19_39_40.png)
 
 ![20_20%_output_readingVirtualBox_vsdworkshop_29_03_2025_19_21_58.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/20_20%25_output_readingVirtualBox_vsdworkshop_29_03_2025_19_21_58.png)
 
-80% screenshots
+### 📊 80% Screenshots
 ![21_80%outputgraph.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/21_80%25outputgraph.png)
 
 ![22_rise_80calcVirtualBox_vsdworkshop_29_03_2025_19_32_29.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/22_rise_80calcVirtualBox_vsdworkshop_29_03_2025_19_32_29.png)
 
 ```math
 Rise\ transition\ time = 2.24577 - 2.18214 = 0.06363\ ns = 63.63\ ps
-``
+```
 
-Fall transition time calculation
+---
+
+## 🔻 Fall Transition Time Calculation
 
 ```math
 Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ taken\ for\ output\ to\ fall\ to\ 80\%
 ```
+
 ```math
 20\%\ of\ output = 660\ mV
 ```
+
 ```math
 80\%\ of\ output = 2.64\ V
+```
 
-20% screenshots
-
+### 📉 20% Screenshots
 ![23_falltime_20%graphVirtualBox_vsdworkshop_29_03_2025_19_44_12.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/23_falltime_20%25graphVirtualBox_vsdworkshop_29_03_2025_19_44_12.png)
+
 ![24_falltime20%readingVirtualBox_vsdworkshop_29_03_2025_19_44_41.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/24_falltime20%25readingVirtualBox_vsdworkshop_29_03_2025_19_44_41.png)
 
-80%screenshots
+### 📉 80% Screenshots
 ![25_falltime_80$graphVirtualBox_vsdworkshop_29_03_2025_19_46_26.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/25_falltime_80%24graphVirtualBox_vsdworkshop_29_03_2025_19_46_26.png)
+
 ![26__falltime_80$calcVirtualBox_vsdworkshop_29_03_2025_19_47_00.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/26__falltime_80%24calcVirtualBox_vsdworkshop_29_03_2025_19_47_00.png)
 
 ```math
-Fall\ transition\ time = 4.095 - 4.05927  = 0.03573\ ns = 35.73\ ps
+Fall\ transition\ time = 4.095 - 4.05927 = 0.03573\ ns = 35.73\ ps
+```
 
-```Rise Cell Delay Calculation
+---
+
+## ⏫ Rise Cell Delay Calculation
 
 ```math
 Rise\ Cell\ Delay = Time\ taken\ for\ output\ to\ rise\ to\ 50\% - Time\ taken\ for\ input\ to\ fall\ to\ 50\%
 ```
+
 ```math
 50\%\ of\ 3.3\ V = 1.65\ V
 ```
-50% screenshots
+
+### ⏳ 50% Screenshots
 ![27_risecellelaygraph50%VirtualBox_vsdworkshop_29_03_2025_19_58_31.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/27_risecellelaygraph50%25VirtualBox_vsdworkshop_29_03_2025_19_58_31.png)
+
 ![28_risecelldelaycalc50%VirtualBox_vsdworkshop_29_03_2025_19_57_58.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/28_risecelldelaycalc50%25VirtualBox_vsdworkshop_29_03_2025_19_57_58.png)
 
 ```math
 Rise\ Cell\ Delay = 2.21069 - 2.14977 = 0.06092\ ns = 60.92\ ps
 ```
 
-Fall Cell Delay Calculation
+---
+
+## ⏬ Fall Cell Delay Calculation
 
 ```math
 Fall\ Cell\ Delay = Time\ taken\ for\ output\ to\ fall\ to\ 50\% - Time\ taken\ for\ input\ to\ rise\ to\ 50\%
 ```
+
 ```math
 50\%\ of\ 3.3\ V = 1.65\ V
 ```
-50% screenshots
+
+### ⏳ 50% Screenshots
 ![29_fallcell50%graphVirtualBox_vsdworkshop_29_03_2025_20_00_21.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/29_fallcell50%25graphVirtualBox_vsdworkshop_29_03_2025_20_00_21.png)
+
 ![31_fallcellcalc50%VirtualBox_vsdworkshop_29_03_2025_20_01_17.png](https://raw.githubusercontent.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/main/DAY_3/31_fallcellcalc50%25VirtualBox_vsdworkshop_29_03_2025_20_01_17.png)
 
 ```math
 Fall\ Cell\ Delay = 4.07717 - 4.04957 = 0.0276\ ns = 27.96\ ps
 ```
-
+---
 #### 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
 
 Link to Sky130 Periphery rules: [https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html](https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html)
