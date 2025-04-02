@@ -464,7 +464,7 @@ Again checking DRC
 ### ✅ Section 4 Tasks:
 
 * Section 4 tasks:-
-1. Fix up small DRC errors and verify the design is ready to be inserted into our flow.
+1. Verify the design is ready to be inserted into our flow.
 2. Save the finalized layout with custom name and open it.
 3. Generate lef from the layout.
 4. Copy the newly generated lef and associated required lib files to 'picorv32a' design 'src' directory.
@@ -479,7 +479,7 @@ Again checking DRC
 13. Explore post-CTS OpenROAD timing analysis by removing 'sky130_fd_sc_hd__clkbuf_1' cell from clock buffer list variable 'CTS_CLK_BUFFER_LIST'.
 
 
-#### 1. Fix up small DRC errors and verify the design is ready to be inserted into our flow.
+#### 1. Verify the design is ready to be inserted into our flow.
 
 Conditions to be verified before moving forward with custom designed cell layout:
 * Condition 1: The input and output ports of the standard cell should lie on the intersection of the vertical and horizontal tracks.
