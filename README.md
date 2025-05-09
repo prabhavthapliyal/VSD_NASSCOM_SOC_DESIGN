@@ -1323,6 +1323,11 @@ Screenshots of commands run and timing report generated
 * [R. Timothy Edwards](https://github.com/RTimothyEdwards), Senior Vice President of Analog and Design, efabless Corporation.
 
 ---
+# Certificate
+![13_timingrep2.png](https://github.com/prabhavthapliyal/VSD_NASSCOM_SOC_DESIGN/blob/0fb0f5c3bfdbe4c3f8ce6df0ae808506d1b1373a/IMG_1020.jpeg)
+
+---
+
 
 
 
